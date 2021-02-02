@@ -7,6 +7,11 @@ class Player {
       this.tokens = createTokens(21);
     }
 
+    
+    /**
+     * Creates token objects for player
+     * @param {integer} num - Number of token objects to be created
+     */
     createTokens(num) {
       const tokens = [];
       
