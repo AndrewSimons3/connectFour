@@ -1,1 +1,5 @@
-class Space {}
+class Space {
+  constructor() {
+    
+  }
+}
