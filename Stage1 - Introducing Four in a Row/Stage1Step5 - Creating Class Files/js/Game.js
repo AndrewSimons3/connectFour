@@ -26,6 +26,6 @@ class Game {
 
 
   get activePlayer() {
-    
+    return this.players.find(player => player.active);
   }
 }
