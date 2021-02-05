@@ -22,4 +22,13 @@ class Player {
 
       return tokens;
     }
+
+    get unusedTokens() {
+
+    }
+
+    get activeToken() {
+
+    }
+
 }
